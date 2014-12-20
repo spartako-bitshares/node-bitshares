@@ -1,0 +1,12 @@
+{
+  "name": "node-bitshares",
+  "description": "Communicate with bitshares_client via JSON-RPC",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "author": "spartako",
+  "dependencies": {
+    "node-json-rpc": "0.0.1",
+    "underscore": "*"
+  },
+  "devDependencies": {}
+}
