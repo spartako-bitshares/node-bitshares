@@ -5,8 +5,9 @@
   "main": "lib/index.js",
   "author": "spartako",
   "dependencies": {
-    "node-json-rpc": "0.0.1",
-    "underscore": "*"
+    "request": "*",
+    "underscore": "*",
+    "underscore.string": "~2.4.0"
   },
   "devDependencies": {}
 }
