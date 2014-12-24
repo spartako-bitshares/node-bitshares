@@ -24,5 +24,5 @@ bitshares.createClient("user","pass","127.0.0.1",4000,function(err,client){
 
 ```
 
-See [examples/](/examples) for other commands usage.
+See [example](/examples/main.js) for other commands usage.
 
