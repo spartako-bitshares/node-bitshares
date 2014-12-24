@@ -9,7 +9,7 @@
     "minimist": "*",
     "async": "*",
     "underscore": "*",
-    "underscore.string": "~2.4.0"
+    "underscore.string": "*"
   },
   "devDependencies": {}
 }
