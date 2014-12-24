@@ -3,13 +3,13 @@ node-bitshares
 
 API wrapper for bitshares toolkit in nodejs.
 
-Start the bitshares_client using this command:
+Start the bitshares node using this command:
 
 ```
 $ ./bitshares_client  --rpcuser user  --rpcpassword pass --server --httpport 4000
 ```
 
-the createClient method create the rpc client
+createClient method return the rpc client for communicating with bitshares node
 ```js
 var bitshares = require('bitshares');
 
