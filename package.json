@@ -6,6 +6,8 @@
   "author": "spartako",
   "dependencies": {
     "request": "*",
+    "minimist": "*",
+    "async": "*",
     "underscore": "*",
     "underscore.string": "~2.4.0"
   },
