@@ -18,7 +18,7 @@ bitshares.createClient("user","pass","127.0.0.1",4000,function(err,client){
 	// You can call every method from help command, the first arg is the params list
 	client.get_info([],function(err,res){
 		if(err){return console.log(err);};
-		console.log(res);
+		console.log("result",res);
 	});
 });
 
