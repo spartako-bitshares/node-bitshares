@@ -9,6 +9,11 @@ Start the bitshares node using this command:
 $ ./bitshares_client  --rpcuser user  --rpcpassword pass --server --httpport 4000
 ```
 
+Install bitshares npm module
+```
+$ npm install bitshares
+```
+
 createClient method return the rpc client for communicating with bitshares node
 ```js
 var bitshares = require('bitshares');
