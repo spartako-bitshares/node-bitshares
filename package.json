@@ -1,5 +1,5 @@
 {
-  "name": "node-bitshares",
+  "name": "bitshares",
   "description": "Communicate with bitshares_client via JSON-RPC",
   "version": "0.1.0",
   "main": "lib/index.js",
