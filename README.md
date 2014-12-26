@@ -3,7 +3,7 @@ node-bitshares
 
 API wrapper for bitshares toolkit in nodejs.
 
-Start the bitshares node using this command:
+Start the bitshares node using command:
 
 ```
 $ ./bitshares_client  --rpcuser user  --rpcpassword pass --server --httpport 4000
