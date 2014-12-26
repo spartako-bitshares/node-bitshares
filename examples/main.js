@@ -2,6 +2,8 @@ var bitshares = require("../"),
         async = require('async'),
      minimist = require('minimist');
 
+// USAGE:  node examples/main.js  --rpcuser user  --rpcpassword pass  --httpport 4000
+
 var main = function(){
   var argv = minimist(process.argv.slice(2));
   var client = null;
