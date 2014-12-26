@@ -15,7 +15,13 @@
     "underscore": "*",
     "underscore.string": "*"
   },  
+  "keywords": [
+    "bitshares",
+    "rpc",
+    "client"
+  ],
   "devDependencies": {
-    "expect.js" : "*"
+    "expect.js" : "*",
+    "mocha" : "*"
   }
 }
