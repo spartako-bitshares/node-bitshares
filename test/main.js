@@ -26,5 +26,17 @@ describe('client', function() {
       });      
     });
   });
+
+  it('wallet_unlock', function(done) {
+    bitshares.createClient("user","pass","127.0.0.1",4000,function(err,client){
+      if(err){return done(err);}
+      expect(client).to.have.key('wallet_unlock');
+      // no params -> error
+      client.wallet_unlock([],function(err,info){
+	expect(err).not.to.be(false);
+	done();
+      });      
+    });
+  });
   
 });
