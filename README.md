@@ -10,7 +10,7 @@ $ ./bitshares_client  --rpcuser user  --rpcpassword pass --server --httpport 400
 ```
 
 **Note**: This command is used only for convenience.
-For security reason I **strongly** suggest you to change ~/.Bitshares/config.json file and launch bitshares_client without params.
+For security reason I **strongly** suggest you to change ~/.Bitshares/config.json file and launch bitshares_client without parameters.
 
 Install bitshares npm module
 ```
