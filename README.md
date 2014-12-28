@@ -9,8 +9,8 @@ Start the bitshares node using command:
 $ ./bitshares_client  --rpcuser user  --rpcpassword pass --server --httpport 4000
 ```
 
-*Note*: This command is used only for convenince.
-For security reason I *strongly* suggest you to change ~/.Bitshares/config.json file and launch bitshares_client without params.
+**Note**: This command is used only for convenince.
+For security reason I **strongly** suggest you to change ~/.Bitshares/config.json file and launch bitshares_client without params.
 
 Install bitshares npm module
 ```
